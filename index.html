@@ -1,2 +1,83 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+
+
+</head>
+
+    <body background="assets/images/milkyWay.jpg">
+        <div id = "gamePlay">
+
+                <div id ="randomNumber">        
+                    </div>
+    <div id="header">
+        <h1>CrystalCollector!</h1>
+
+    </div>
+     
+    <div id="counter">
+    </div>
+
+
+    <div id="instructions" >
+<p>
+        You will be given a random number at the start of the game.</p>
+        
+       <p> Click on the crystals below to add together random numbers until they match the number given to you.</p>
+        
+        <p>You win the game by matching your result to the random number, if your result goes above the random number, you lose.</p>
+        
+      <P>  Each time the game starts, the values of the crystals change. 
+        </p>
+        </div>
+
+       
+<div id="gemsDiv">
+    <input class="gems" type="image" id="guessOne" src="assets/images/gem blueish.png" />
+
+    <input class ="gems" type="image" id="guessTwo" src="assets/images/gem blue.png" />
+
+    <input class = "gems" type="image" id="guessThree" src="assets/images/gem darkblue.png" />
+
+        <input class = "gems" type="image" id="guessFour" src="assets/images/gem greyish.png" />
+
+        <input class = "gems" type="image" id="guessFive" src="assets/images/gem purple.png" />
+
+        <input class = "gems" type="image" id="guessSix" src="assets/images/gem red.png" />
+</div>
+
+
+<div id="restart">
+Click this to restart
+</div>
+</div>
+
+<div id="gameWin">
+    <div id="gameWinHead">
+        <h1>You Win</h1>
+        <img src="https://media.giphy.com/media/TsOhlUIXSRBS0/giphy.gif" alt="Jewels">
+        <h2>Do it again!</h2>
+    </div>
+    </div>
+
+    <div id="gameLose">
+        <div id="gameLoseHead">
+            <h1>You Lose!</h1>
+            <img src="https://media.giphy.com/media/TsOhlUIXSRBS0/giphy.gif" alt="Jewels">
+
+            <h2>Restart</h2>
+         </div>
+    </div>
+
+<script src="https://code.jquery.com/jquery-3.3.1.js">
+</script>
+<script type="text/javascript" src="assets/javascript/game.js">
+</script>
+
+</body>
 </html>

@@ -1,0 +1,172 @@
+#header{
+    background-color:#C48434;
+    width:46%;
+    text-align:center;
+    padding:5px;
+    margin-top:10px;
+    margin-left:60px;
+    margin-bottom:15px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-size:25px;
+    font-weight:Bolder;
+    color:white;
+
+}
+
+#instructions{
+    background-color: rgb(219, 207, 249);
+    padding:15px;
+    width:45%;
+    font-size:20px;        
+    margin-left:60px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+
+#counter{
+    background-color: #63C089;
+    padding:30px;
+    font-size: 35px;
+    width: 600px;
+    margin-right:25px;
+    margin-bottom:15px;
+    float:right;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow:auto;
+
+}
+
+#randomNumber{
+    
+    background-color: #63C089;
+    padding:30px;
+    font-size: 35px;
+    width: 600px;
+    margin-top:35px;
+    margin-right:25px;
+    margin-bottom:17px;
+    float:right;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    overflow:auto;
+
+}
+
+#gemsDiv{
+    margin-left:70px;
+}
+.gems{
+width:200px;
+height:200px;
+}
+
+#counter{
+    margin:20px;
+}
+
+#gemsDiv{
+    width:90%;
+}
+#score{
+    background-color:#34B3A2;
+    padding:30px;
+
+}
+
+#scoreCounter{
+width:100px;
+height:100px;
+}
+
+#footer{
+    margin:0;
+    padding:0;
+    width:99%;
+    height:40px;
+    background-color:rgb(204, 196, 149);
+}
+
+.gemsDos{
+    width: 220px;
+    height:220px;
+
+}
+
+#gameWin{
+    background-color:rgb(170, 78, 173);
+    border-color:black;
+    border:10px;
+    padding:30px;
+    margin: 30px;
+    width:36%;
+    position:absolute;
+    top: 100px;
+    right: 500px;
+}
+
+#gameWin h1{
+   font-size: 70px;
+    text-align:center;
+    color:green;
+   font-weight:bold;
+
+}
+
+#gameWin h2{
+    font-size:50px;
+    text-align:center;
+    padding:20px;
+    background-color:orange;
+}
+
+#gameWin img{
+position:relative;
+left:110px;
+}
+
+#gameLose{
+    background-color:rgb(144, 70, 146);
+    border-color:black;
+    border:10px;
+    padding:30px;
+    margin: 30px;
+    width:36%;
+    position:absolute;
+    top: 100px;
+    right: 500px;
+}
+
+#gameLose h1{
+   font-size:70px;
+   color:rgb(255, 74, 74);
+   font-weight:bold;
+    text-align:center;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+
+}
+
+#gameLose h2{
+    font-size:50px;
+    text-align:center;
+    padding:20px;
+    background-color:orange;
+
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+#gameLose img{
+    position:relative;
+    left:110px;
+    }
+
+#restart{
+    position:absolute;
+    left: 500px;
+    font-size:25px;
+    text-align:center;
+    background-color:orange;
+    width:400px;
+    height:40px;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
